@@ -119,10 +119,11 @@ sudo apt-get install minicom
 sudo apt install net-tools
 ```
 
-### 3.14 git
+### 3.14 git gitk
 
 ```shell
 sudo apt install git
+sudo apt install gitk
 ```
 
 ### 3.15 gcc-4.9 g++-4.9
@@ -193,15 +194,26 @@ sudo apt-get install make
 sudo apt install cmake
 ```
 
-### 待安装
+### 3.20 百度网盘
 
-截图工具
+到百度网盘下载deb安装包:
+https://pan.baidu.com/download#linux
+
+安装deb包
+
+```shell
+sudo dpkg -i ~/Downloads/baidunetdisk_4.17.7_amd64.deb
+```
+
+### 3.21 截图工具
+
+系统自带:ScreenShot
+
+### 待安装
 
 向日葵
 
 nvidia显卡驱动
-
-百度网盘
 
 抓包工具：wireshark
 
@@ -247,3 +259,9 @@ Python
 markdownlint
 
 Markdown Preview Enhanced
+
+### 4.6 vscode配置
+
+#### 4.6.1 Vs Code使用 - 保存时自动删除多余空格
+
+https://blog.csdn.net/jackailson/article/details/100056064
