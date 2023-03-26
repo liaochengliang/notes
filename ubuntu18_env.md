@@ -197,7 +197,8 @@ sudo apt install cmake
 ### 3.20 百度网盘
 
 到百度网盘下载deb安装包:
-https://pan.baidu.com/download#linux
+
+<https://pan.baidu.com/download#linux>
 
 安装deb包
 
@@ -209,13 +210,17 @@ sudo dpkg -i ~/Downloads/baidunetdisk_4.17.7_amd64.deb
 
 系统自带:ScreenShot
 
-### 待安装
+### 其他
 
-向日葵
+- 向日葵
 
-nvidia显卡驱动
+- nvidia显卡驱动
 
-抓包工具：wireshark
+- 抓包工具：wireshark
+
+- 包管理工具 新立得（Synaptic）
+
+- indicator-sysmonitor
 
 ## 4.配置
 
@@ -226,6 +231,7 @@ nvidia显卡驱动
 ### 4.2 配置git
 
 参考配置部分内容:
+
 <https://blog.csdn.net/qq_34160841/article/details/104838269>
 
 ```shell
@@ -250,18 +256,18 @@ update-alternatives
 
 ### 4.5 vscode插件管理
 
-C/C++
+- C/C++
 
-Remote-SSH
+- Remote-SSH
 
-Python
+- Python
 
-markdownlint
+- markdownlint
 
-Markdown Preview Enhanced
+- Markdown Preview Enhanced
 
 ### 4.6 vscode配置
 
 #### 4.6.1 Vs Code使用 - 保存时自动删除多余空格
 
-https://blog.csdn.net/jackailson/article/details/100056064
+<https://blog.csdn.net/jackailson/article/details/100056064>
