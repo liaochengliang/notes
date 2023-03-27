@@ -126,7 +126,7 @@ sudo apt install git
 sudo apt install gitk
 ```
 
-### 3.15 gcc-4.9 g++-4.9
+### 3.15 gcc4.9 g++4.9
 
 <https://blog.csdn.net/weixin_43876206/article/details/100923785>
 
@@ -160,12 +160,15 @@ sudo apt install gcc-4.9
 
 ```shell
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 1
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 1
 ```
 
 配置 gcc 默认指向 gcc-4.9
+配置 g++ 默认指向 g++-4.9
 
 ```shell
 sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
 ```
 
 ### 3.16 python
@@ -185,7 +188,6 @@ python3 -> python3.6
 ```shell
 
 sudo apt-get install make
-
 ```
 
 ### 3.19 cmake
@@ -210,6 +212,37 @@ sudo dpkg -i ~/Downloads/baidunetdisk_4.17.7_amd64.deb
 
 系统自带:ScreenShot
 
+### 3.22 包管理工具 新立得(Synaptic)
+
+```shell
+sudo apt-get install synaptic
+
+sudo synaptic
+```
+
+### 3.23 doxygen
+
+```shell
+sudo apt-get install doxygen
+```
+
+### 3.24 indicator-sysmonitor
+
+```shell
+sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
+indicator-sysmonitor &
+```
+
+<https://www.cnblogs.com/hjw1/p/7901048.html>
+
+### 3.25 drawio
+
+```shell
+sudo snap install drawio
+```
+
 ### 其他
 
 - 向日葵
@@ -217,10 +250,6 @@ sudo dpkg -i ~/Downloads/baidunetdisk_4.17.7_amd64.deb
 - nvidia显卡驱动
 
 - 抓包工具：wireshark
-
-- 包管理工具 新立得（Synaptic）
-
-- indicator-sysmonitor
 
 ## 4.配置
 
