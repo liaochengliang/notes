@@ -63,7 +63,7 @@ sudo apt upgrade
 
 ### 3.2 音视频播放器 VLC
 
-通过ubuntu软件商店直接安装
+- 通过ubuntu软件商店直接安装
 
 ### 3.3 格式转换/解码器 ffmpeg
 
@@ -73,11 +73,11 @@ sudo apt-get install ffmpeg
 
 ### 3.4 浏览器 Firefox
 
-通过ubuntu软件商店直接安装
+- 通过ubuntu软件商店直接安装
 
 ### 3.5 vscode
 
-通过ubuntu软件商店直接安装
+- 通过ubuntu软件商店直接安装
 
 ### 3.6 vim
 
@@ -91,7 +91,7 @@ sudo apt install vim
 
 ### 3.8 wps
 
-通过ubuntu软件商店直接安装
+- 通过ubuntu软件商店直接安装
 
 ### 3.9 代码比对工具 meld
 
@@ -101,7 +101,7 @@ sudo apt-get install meld
 
 ### 3.10 邮箱 thunderbird
 
-通过ubuntu软件商店直接安装
+- 通过ubuntu软件商店直接安装
 
 ### 3.11 串口工具 minicom
 
@@ -111,7 +111,7 @@ sudo apt-get install minicom
 
 ### 3.12 ssh
 
-系统自带
+- 系统自带
 
 ### 3.13 ifconfig
 
@@ -173,7 +173,7 @@ sudo update-alternatives --config g++
 
 ### 3.16 python
 
-系统自带
+- 系统自带
 
 python -> python2.7
 
@@ -181,7 +181,7 @@ python3 -> python3.6
 
 ### 3.17 ftp
 
-系统自带
+- 系统自带
 
 ### 3.18 make
 
@@ -210,7 +210,7 @@ sudo dpkg -i ~/Downloads/baidunetdisk_4.17.7_amd64.deb
 
 ### 3.21 截图工具
 
-系统自带:ScreenShot
+- 系统自带:ScreenShot
 
 ### 3.22 包管理工具 新立得(Synaptic)
 
@@ -243,6 +243,18 @@ indicator-sysmonitor &
 sudo snap install drawio
 ```
 
+### 3.26 valgrind
+
+```shell
+sudo apt-get install valgrind
+```
+
+### 3.27 adb
+
+```shell
+sudo apt install adb
+```
+
 ### 其他
 
 - 向日葵
@@ -250,6 +262,10 @@ sudo snap install drawio
 - nvidia显卡驱动
 
 - 抓包工具：wireshark
+
+- ImageJ
+
+- mysql
 
 ## 4.配置
 
@@ -279,7 +295,7 @@ ssh-keygen -t rsa -C "2789094390@qq.com"
 
 ### 4.4 gcc，g++，python版本管理
 
-update-alternatives
+- update-alternatives
 
 <https://blog.csdn.net/qq_42608626/article/details/106249986>
 
@@ -300,3 +316,13 @@ update-alternatives
 #### 4.6.1 Vs Code使用 - 保存时自动删除多余空格
 
 <https://blog.csdn.net/jackailson/article/details/100056064>
+
+### 4.7 Java环境
+
+```shell
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
+```
+
+- 配置Java环境变量
+<https://blog.csdn.net/DovSnier/article/details/108512664>
