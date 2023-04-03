@@ -255,6 +255,12 @@ sudo apt-get install valgrind
 sudo apt install adb
 ```
 
+### 3.28 Typora
+
+链接: <https://pan.baidu.com/s/1__W-a-LnZMLl4FLRFBchRg>
+提取码: 3euu
+下载双击deb安装即可
+
 ### 其他
 
 - 向日葵
@@ -310,6 +316,8 @@ ssh-keygen -t rsa -C "2789094390@qq.com"
 - markdownlint
 
 - Markdown Preview Enhanced
+
+- CMake
 
 ### 4.6 vscode配置
 
