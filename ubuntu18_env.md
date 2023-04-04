@@ -261,6 +261,16 @@ sudo apt install adb
 提取码: 3euu
 下载双击deb安装即可
 
+### 3.29 录屏软件 Kazam
+
+- 通过ubuntu软件商店直接安装
+
+### 3.30 tree
+
+```shell
+sudo apt install tree
+```
+
 ### 其他
 
 - 向日葵
