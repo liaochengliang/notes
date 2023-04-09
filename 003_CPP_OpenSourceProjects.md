@@ -15,7 +15,7 @@
 开源地址:<https://github.com/dropbox/json11>
 简介：基于C++，序列化与反序列化功能开源库
 
-## 4.gtest
+## 4.googletest
 
 开源地址:<https://github.com/google/googletest>
 简介：一个面向C/C++的测试框架
@@ -39,3 +39,51 @@
 
 开源地址:<https://github.com/mysql>
 简介:开源数据库
+
+## 9.grpc
+
+<https://github.com/grpc/grpc>
+
+## 10.benchmark
+
+<https://github.com/google/benchmark>
+
+## 11.brpc
+
+<https://github.com/apache/brpc>
+
+## 12.cppzmq
+
+<https://github.com/zeromq/cppzmq>
+
+## 13.tinyxml2
+
+<https://github.com/leethomason/tinyxml2>
+
+## 14.cpp-taskflow
+
+<https://github.com/cpp-taskflow/cpp-taskflow>
+
+## 15.flatbuffers
+
+<https://github.com/google/flatbuffers>
+
+## 16.ThreadPool
+
+<https://github.com/progschj/ThreadPool>
+
+## 17.protobuf
+
+<https://github.com/protocolbuffers/protobuf>
+
+## 18.zlib
+
+<https://gitcode.net/mirrors/madler/zlib.git>
+
+## 19.asio2
+
+<https://github.com/zhllxt/asio2>
+
+## 20.MQTT-C
+
+<https://github.com/LiamBindle/MQTT-C>

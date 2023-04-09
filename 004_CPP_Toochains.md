@@ -1,21 +1,29 @@
 # 工具链
 
-1.编译工具链
+## 1.编译工具链
 
-QNX：
+### QNX：
 
 - qnx700
 - qnx710
 
-Android
+### Android
 
-- NDK: clang/gcc
-- AOSP: clang/gcc
+- NDK-gcc/g++
+- NDK-clang/clang++
+- AOSP-gcc/g++
+- AOSP-clang/clang++
 
-Linux
+### Linux
 
-- clang/gcc
+- clang/clang++ (Clang前端、IR优化器（Pass）和LLVM后端)
+- GNU-gcc/g++
 
-Window
+### Window
 
-MacOS
+- MSVC
+- MinGW
+
+## 2.Debug Tools
+
+## 3.Build Tools
