@@ -1,37 +1,21 @@
-# notes
+# 笔记
 
-#### 介绍
+## CPP
 
-笔记
+[000_CPP_StudyField](./000_CPP_StudyField.md)
+[001_CPP_Basics](./001_CPP_Basics.md)
+[002_CPP_AlgorithmApplication](./002_CPP_AlgorithmApplication.md)
+[003_CPP_OpenSourceProjects](./003_CPP_OpenSourceProjects.md)
+[004_CPP_Toochains](./004_CPP_Toochains.md)
+[005_CPP_DesignPattern](./005_CPP_DesignPattern.md)
 
-#### 软件架构
+## Others
 
-软件架构说明
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-#### 特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5. Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[CPP_On_WIndows](CPP_On_WIndows.md)
+[Env_For_ubuntu18](Env_For_ubuntu18.md)
+[Android_Struction](Android_Struction.md)
+[ApplicationField](ApplicationField.md)
+[Linux_Struction](Linux_Struction.md)
+[Notes_For_Pytorch](Notes_For_Pytorch.md)
+[Tools_For_Ubuntu](Tools_For_Ubuntu.md)
+[Toos_Online](Toos_Online.md)
