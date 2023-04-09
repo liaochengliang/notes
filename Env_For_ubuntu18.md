@@ -271,6 +271,10 @@ sudo apt install adb
 sudo apt install tree
 ```
 
+### 3.31 LibreOffice
+
+- 通过ubuntu软件商店直接安装
+
 ### 其他
 
 - 向日葵
