@@ -275,6 +275,28 @@ sudo apt install tree
 
 - 通过ubuntu软件商店直接安装
 
+### 3.32 gitbook
+
+```shell
+wget https://nodejs.org/download/release/v15.14.0/node-v15.14.0-linux-x64.tar.xz
+
+sudo tar -xf node-v15.14.0-linux-x64.tar.xz -C /usr/local/
+
+sudo apt install npm
+
+# 切换为使用国内速度较快的淘宝镜像
+sudo npm config set registry=http://registry.npm.taobao.org -g
+
+npm install gitbook-cli -g
+
+nodejs -v && npm -v
+
+gitbook init book
+
+gitbook serve --port=8081
+
+```
+
 ### 其他
 
 - 向日葵
