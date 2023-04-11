@@ -1,0 +1,13 @@
+{
+    "root": "./",
+    "title" : "gitbook-notes",
+    "description" : "Gitbook 教程",
+    "language" : "zh-hans",
+    "author": "liaochengliang",
+    "theme-default": {
+        "showLevel": true
+    },
+    "plugins": [
+        "-sharing"
+    ]
+}

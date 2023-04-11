@@ -1,0 +1,488 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>linux架构 · gitbook-notes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="liaochengliang">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Notes_For_Pytorch.html" />
+    
+    
+    <link rel="prev" href="ApplicationField.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../CPP/">
+            
+                <a href="../CPP/">
+            
+                    
+                    CPP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../CPP/000_CPP_StudyField.html">
+            
+                <a href="../CPP/000_CPP_StudyField.html">
+            
+                    
+                    C++学习领域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../CPP/001_CPP_Basics.html">
+            
+                <a href="../CPP/001_CPP_Basics.html">
+            
+                    
+                    C++基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../CPP/002_CPP_AlgorithmApplication.html">
+            
+                <a href="../CPP/002_CPP_AlgorithmApplication.html">
+            
+                    
+                    C++算法应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../CPP/003_CPP_OpenSourceProjects.html">
+            
+                <a href="../CPP/003_CPP_OpenSourceProjects.html">
+            
+                    
+                    C++开源项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../CPP/004_CPP_Toochains.html">
+            
+                <a href="../CPP/004_CPP_Toochains.html">
+            
+                    
+                    C++工具链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../CPP/005_CPP_DesignPattern.html">
+            
+                <a href="../CPP/005_CPP_DesignPattern.html">
+            
+                    
+                    C++设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../CPP/006_CPP_CodeSpecification.html">
+            
+                <a href="../CPP/006_CPP_CodeSpecification.html">
+            
+                    
+                    C++代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Others
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="CPP_On_WIndows.html">
+            
+                <a href="CPP_On_WIndows.html">
+            
+                    
+                    CPP_On_WIndows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Env_For_ubuntu18.html">
+            
+                <a href="Env_For_ubuntu18.html">
+            
+                    
+                    Ubuntu18环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Android_Struction.html">
+            
+                <a href="Android_Struction.html">
+            
+                    
+                    Android架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="ApplicationField.html">
+            
+                <a href="ApplicationField.html">
+            
+                    
+                    计算机应用领域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5" data-path="Linux_Struction.html">
+            
+                <a href="Linux_Struction.html">
+            
+                    
+                    linux架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Notes_For_Pytorch.html">
+            
+                <a href="Notes_For_Pytorch.html">
+            
+                    
+                    pytorch笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="Tools_For_Ubuntu.html">
+            
+                <a href="Tools_For_Ubuntu.html">
+            
+                    
+                    ubuntu工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="Toos_Online.html">
+            
+                <a href="Toos_Online.html">
+            
+                    
+                    在线工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >linux架构</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="linux">Linux</h1>
+<h2 id="1&#x5185;&#x5B58;&#x7BA1;&#x7406;">1.&#x5185;&#x5B58;&#x7BA1;&#x7406;</h2>
+<p>&#x5BF9;&#x4EFB;&#x4F55;&#x4E00;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x800C;&#x8A00;&#xFF0C;&#x5176;&#x5185;&#x5B58;&#x4EE5;&#x53CA;&#x5176;&#x5B83;&#x8D44;&#x6E90;&#x90FD;&#x662F;&#x6709;&#x9650;&#x7684;&#x3002;&#x4E3A;&#x4E86;&#x8BA9;&#x6709;&#x9650;&#x7684;&#x7269;&#x7406;&#x5185;&#x5B58;&#x6EE1;&#x8DB3;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5BF9;&#x5185;&#x5B58;&#x7684;&#x5927;&#x9700;&#x6C42;&#x91CF;&#xFF0C;Linux  &#x91C7;&#x7528;&#x4E86;&#x79F0;&#x4E3A;&#x201C;&#x865A;&#x62DF;&#x5185;&#x5B58;&#x201D;&#x7684;&#x5185;&#x5B58;&#x7BA1;&#x7406;&#x65B9;&#x5F0F;&#x3002;Linux  &#x5C06;&#x5185;&#x5B58;&#x5212;&#x5206;&#x4E3A;&#x5BB9;&#x6613;&#x5904;&#x7406;&#x7684;&#x201C;&#x5185;&#x5B58;&#x9875;&#x201D;&#xFF08;&#x5BF9;&#x4E8E;&#x5927;&#x90E8;&#x5206;&#x4F53;&#x7CFB;&#x7ED3;&#x6784;&#x6765;&#x8BF4;&#x90FD;&#x662F; 4KB&#xFF09;&#x3002;Linux &#x5305;&#x62EC;&#x4E86;&#x7BA1;&#x7406;&#x53EF;&#x7528;&#x5185;&#x5B58;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4EE5;&#x53CA;&#x7269;&#x7406;&#x548C;&#x865A;&#x62DF;&#x6620;&#x5C04;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x786C;&#x4EF6;&#x673A;&#x5236;&#x3002;</p>
+<p>&#x3000;    &#x4E0D;&#x8FC7;&#x5185;&#x5B58;&#x7BA1;&#x7406;&#x8981;&#x7BA1;&#x7406;&#x7684;&#x53EF;&#x4E0D;&#x6B62; 4KB &#x7F13;&#x51B2;&#x533A;&#x3002;Linux &#x63D0;&#x4F9B;&#x4E86;&#x5BF9; 4KB &#x7F13;&#x51B2;&#x533A;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x4F8B;&#x5982; slab &#x5206;&#x914D;&#x5668;&#x3002;&#x8FD9;&#x79CD;&#x5185;&#x5B58;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;&#x4F7F;&#x7528; 4KB &#x7F13;&#x51B2;&#x533A;&#x4E3A;&#x57FA;&#x6570;&#xFF0C;&#x7136;&#x540E;&#x4ECE;&#x4E2D;&#x5206;&#x914D;&#x7ED3;&#x6784;&#xFF0C;&#x5E76;&#x8DDF;&#x8E2A;&#x5185;&#x5B58;&#x9875;&#x4F7F;&#x7528;&#x60C5;&#x51B5;&#xFF0C;&#x6BD4;&#x5982;&#x54EA;&#x4E9B;&#x5185;&#x5B58;&#x9875;&#x662F;&#x6EE1;&#x7684;&#xFF0C;&#x54EA;&#x4E9B;&#x9875;&#x9762;&#x6CA1;&#x6709;&#x5B8C;&#x5168;&#x4F7F;&#x7528;&#xFF0C;&#x54EA;&#x4E9B;&#x9875;&#x9762;&#x4E3A;&#x7A7A;&#x3002;&#x8FD9;&#x6837;&#x5C31;&#x5141;&#x8BB8;&#x8BE5;&#x6A21;&#x5F0F;&#x6839;&#x636E;&#x7CFB;&#x7EDF;&#x9700;&#x8981;&#x6765;&#x52A8;&#x6001;&#x8C03;&#x6574;&#x5185;&#x5B58;&#x4F7F;&#x7528;&#x3002;
+&#x3000;&#x3000; &#x4E3A;&#x4E86;&#x652F;&#x6301;&#x591A;&#x4E2A;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x5185;&#x5B58;&#xFF0C;&#x6709;&#x65F6;&#x4F1A;&#x51FA;&#x73B0;&#x53EF;&#x7528;&#x5185;&#x5B58;&#x88AB;&#x6D88;&#x8017;&#x5149;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x7531;&#x4E8E;&#x8FD9;&#x4E2A;&#x539F;&#x56E0;&#xFF0C;&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x79FB;&#x51FA;&#x5185;&#x5B58;&#x5E76;&#x653E;&#x5165;&#x78C1;&#x76D8;&#x4E2D;&#x3002;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x79F0;&#x4E3A;&#x4EA4;&#x6362;&#xFF0C;&#x56E0;&#x4E3A;&#x9875;&#x9762;&#x4F1A;&#x88AB;&#x4ECE;&#x5185;&#x5B58;&#x4EA4;&#x6362;&#x5230;&#x786C;&#x76D8;&#x4E0A;&#x3002;&#x5185;&#x5B58;&#x7BA1;&#x7406;&#x7684;&#x6E90;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x5728; ./linux/mm &#x4E2D;&#x627E;&#x5230;&#x3002;</p>
+<h2 id="2&#x8FDB;&#x7A0B;&#x7BA1;&#x7406;">2.&#x8FDB;&#x7A0B;&#x7BA1;&#x7406;</h2>
+<p>&#x8FDB;&#x7A0B;&#x5B9E;&#x9645;&#x662F;&#x67D0;&#x7279;&#x5B9A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x4E00;&#x4E2A;&#x8FD0;&#x884C;&#x5B9E;&#x4F53; &#x3002;&#x5728; Linux  &#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x80FD;&#x591F;&#x540C;&#x65F6;&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x8FDB;&#x7A0B;&#xFF0C;Linux  &#x901A;&#x8FC7;&#x5728;&#x77ED;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x5185;&#x8F6E;&#x6D41;&#x8FD0;&#x884C;&#x8FD9;&#x4E9B;&#x8FDB;&#x7A0B;&#x800C;&#x5B9E;&#x73B0;&#x201C;&#x591A;&#x4EFB;&#x52A1;&#x201D;&#x3002;&#x8FD9;&#x4E00;&#x77ED;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x79F0;&#x4E3A;&#x201C;&#x65F6;&#x95F4;&#x7247;&#x201D;&#xFF0C;&#x8BA9;&#x8FDB;&#x7A0B;&#x8F6E;&#x6D41;&#x8FD0;&#x884C;&#x7684;&#x65B9;&#x6CD5;&#x79F0;&#x4E3A;&#x201C;&#x8FDB;&#x7A0B;&#x8C03;&#x5EA6;&#x201D; &#xFF0C;&#x5B8C;&#x6210;&#x8C03;&#x5EA6;&#x7684;&#x7A0B;&#x5E8F;&#x79F0;&#x4E3A;&#x8C03;&#x5EA6;&#x7A0B;&#x5E8F;&#x3002;</p>
+<p>&#x8FDB;&#x7A0B;&#x8C03;&#x5EA6;&#x63A7;&#x5236;&#x8FDB;&#x7A0B;&#x5BF9;CPU&#x7684;&#x8BBF;&#x95EE;&#x3002;&#x5F53;&#x9700;&#x8981;&#x9009;&#x62E9;&#x4E0B;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x7531;&#x8C03;&#x5EA6;&#x7A0B;&#x5E8F;&#x9009;&#x62E9;&#x6700;&#x503C;&#x5F97;&#x8FD0;&#x884C;&#x7684;&#x8FDB;&#x7A0B;&#x3002;&#x53EF;&#x8FD0;&#x884C;&#x8FDB;&#x7A0B;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x4EC5;&#x7B49;&#x5F85;CPU&#x8D44;&#x6E90;&#x7684;&#x8FDB;&#x7A0B;&#xFF0C;&#x5982;&#x679C;&#x67D0;&#x4E2A;&#x8FDB;&#x7A0B;&#x5728;&#x7B49;&#x5F85;&#x5176;&#x5B83;&#x8D44;&#x6E90;&#xFF0C;&#x5219;&#x8BE5;&#x8FDB;&#x7A0B;&#x662F;&#x4E0D;&#x53EF;&#x8FD0;&#x884C;&#x8FDB;&#x7A0B;&#x3002;Linux&#x4F7F;&#x7528;&#x4E86;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#x7684;&#x57FA;&#x4E8E;&#x4F18;&#x5148;&#x7EA7;&#x7684;&#x8FDB;&#x7A0B;&#x8C03;&#x5EA6;&#x7B97;&#x6CD5;&#x9009;&#x62E9;&#x65B0;&#x7684;&#x8FDB;&#x7A0B;&#x3002;</p>
+<p>&#x901A;&#x8FC7;&#x591A;&#x4EFB;&#x52A1;&#x673A;&#x5236;&#xFF0C;&#x6BCF;&#x4E2A;&#x8FDB;&#x7A0B;&#x53EF;&#x8BA4;&#x4E3A;&#x53EA;&#x6709;&#x81EA;&#x5DF1;&#x72EC;&#x5360;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4ECE;&#x800C;&#x7B80;&#x5316;&#x7A0B;&#x5E8F;&#x7684;&#x7F16;&#x5199;&#x3002;&#x6BCF;&#x4E2A;&#x8FDB;&#x7A0B;&#x6709;&#x81EA;&#x5DF1;&#x5355;&#x72EC;&#x7684;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#xFF0C;&#x5E76;&#x4E14;&#x53EA;&#x80FD;&#x7531;&#x8FD9;&#x4E00;&#x8FDB;&#x7A0B;&#x8BBF;&#x95EE;&#xFF0C;&#x8FD9;&#x6837;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x907F;&#x514D;&#x4E86;&#x8FDB;&#x7A0B;&#x4E4B;&#x95F4;&#x7684;&#x4E92;&#x76F8;&#x5E72;&#x6270;&#x4EE5;&#x53CA;&#x201C;&#x574F;&#x201D;&#x7A0B;&#x5E8F;&#x5BF9;&#x7CFB;&#x7EDF;&#x53EF;&#x80FD;&#x9020;&#x6210;&#x7684;&#x5371;&#x5BB3;&#x3002; &#x4E3A;&#x4E86;&#x5B8C;&#x6210;&#x67D0;&#x7279;&#x5B9A;&#x4EFB;&#x52A1;&#xFF0C;&#x6709;&#x65F6;&#x9700;&#x8981;&#x7EFC;&#x5408;&#x4E24;&#x4E2A;&#x7A0B;&#x5E8F;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x4F8B;&#x5982;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x8F93;&#x51FA;&#x6587;&#x672C;&#xFF0C;&#x800C;&#x53E6;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x5BF9;&#x6587;&#x672C;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#x3002;&#x4E3A;&#x6B64;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8FD8;&#x63D0;&#x4F9B;&#x8FDB;&#x7A0B;&#x95F4;&#x7684;&#x901A;&#x8BAF;&#x673A;&#x5236;&#x6765;&#x5E2E;&#x52A9;&#x5B8C;&#x6210;&#x8FD9;&#x6837;&#x7684;&#x4EFB;&#x52A1;&#x3002;Linux &#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x8BAF;&#x673A;&#x5236;&#x6709;&#x4FE1;&#x53F7;&#x3001;&#x7BA1;&#x9053;&#x3001;&#x5171;&#x4EAB;&#x5185;&#x5B58;&#x3001;&#x4FE1;&#x53F7;&#x91CF;&#x548C;&#x5957;&#x63A5;&#x5B57;&#x7B49;&#x3002;</p>
+<p>&#x5185;&#x6838;&#x901A;&#x8FC7; SCI &#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7F16;&#x7A0B;&#x63A5;&#x53E3;&#xFF08;API&#xFF09;&#x6765;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x8FDB;&#x7A0B;&#xFF08;fork&#x3001;exec &#x6216; Portable Operating System Interface [POS&#x2168;] &#x51FD;&#x6570;&#xFF09;&#xFF0C;&#x505C;&#x6B62;&#x8FDB;&#x7A0B;&#xFF08;kill&#x3001;exit&#xFF09;&#xFF0C;&#x5E76;&#x5728;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x901A;&#x4FE1;&#x548C;&#x540C;&#x6B65;&#xFF08;signal &#x6216;&#x8005; POS&#x2168; &#x673A;&#x5236;&#xFF09;&#x3002;</p>
+<h2 id="3&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;">3.&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;</h2>
+<p>&#x548C; DOS &#x7B49;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E0D;&#x540C;&#xFF0C;Linux &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#x5355;&#x72EC;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x5E76;&#x4E0D;&#x662F;&#x7531;&#x9A71;&#x52A8;&#x5668;&#x53F7;&#x6216;&#x9A71;&#x52A8;&#x5668;&#x540D;&#x79F0;&#xFF08;&#x5982; A:  &#x6216; C:  &#x7B49;&#xFF09;&#x6765;&#x6807;&#x8BC6;&#x7684;&#x3002;&#x76F8;&#x53CD;&#xFF0C;&#x548C; UNIX  &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E00;&#x6837;&#xFF0C;Linux &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5C06;&#x72EC;&#x7ACB;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7EC4;&#x5408;&#x6210;&#x4E86;&#x4E00;&#x4E2A;&#x5C42;&#x6B21;&#x5316;&#x7684;&#x6811;&#x5F62;&#x7ED3;&#x6784;&#xFF0C;&#x5E76;&#x4E14;&#x7531;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x5B9E;&#x4F53;&#x4EE3;&#x8868;&#x8FD9;&#x4E00;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x3002;Linux  &#x5C06;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x79F0;&#x4E3A;&#x201C;&#x6302;&#x88C5;&#x201D;&#x6216;&#x201C;&#x6302;&#x4E0A;&#x201D;&#x7684;&#x64CD;&#x4F5C;&#x5C06;&#x5176;&#x6302;&#x88C5;&#x5230;&#x67D0;&#x4E2A;&#x76EE;&#x5F55;&#x4E0A;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7ED3;&#x5408;&#x6210;&#x4E3A;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#x3002;Linux  &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x4E00;&#x4E2A;&#x91CD;&#x8981;&#x7279;&#x70B9;&#x662F;&#x5B83;&#x652F;&#x6301;&#x8BB8;&#x591A;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x3002;Linux &#x4E2D;&#x6700;&#x666E;&#x904D;&#x4F7F;&#x7528;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x662F; Ext2&#xFF0C;&#x5B83;&#x4E5F;&#x662F; Linux  &#x571F;&#x751F;&#x571F;&#x957F;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x3002;&#x4F46; Linux  &#x4E5F;&#x80FD;&#x591F;&#x652F;&#x6301; FAT&#x3001;VFAT&#x3001;FAT32&#x3001;MINIX &#x7B49;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x548C;&#x5176;&#x5B83;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4EA4;&#x6362;&#x6570;&#x636E;&#x3002;&#x7531;&#x4E8E; Linux  &#x652F;&#x6301;&#x8BB8;&#x591A;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x5B83;&#x4EEC;&#x7EC4;&#x7EC7;&#x6210;&#x4E86;&#x4E00;&#x4E2A;&#x7EDF;&#x4E00;&#x7684;&#x865A;&#x62DF;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;.</p>
+<p>&#x865A;&#x62DF;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF08;VirtualFileSystem,VFS&#xFF09;:&#x9690;&#x85CF;&#x4E86;&#x5404;&#x79CD;&#x786C;&#x4EF6;&#x7684;&#x5177;&#x4F53;&#x7EC6;&#x8282;&#xFF0C;&#x628A;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x64CD;&#x4F5C;&#x548C;&#x4E0D;&#x540C;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7684;&#x5177;&#x4F53;&#x5B9E;&#x73B0;&#x7EC6;&#x8282;&#x5206;&#x79BB;&#x4E86;&#x5F00;&#x6765;&#xFF0C;&#x4E3A;&#x6240;&#x6709;&#x7684;&#x8BBE;&#x5907;&#x63D0;&#x4F9B;&#x4E86;&#x7EDF;&#x4E00;&#x7684;&#x63A5;&#x53E3;&#xFF0C;VFS&#x63D0;&#x4F9B;&#x4E86;&#x591A;&#x8FBE;&#x6570;&#x5341;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x3002;&#x865A;&#x62DF;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x903B;&#x8F91;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x548C;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x3002;&#x903B;&#x8F91;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x6307;Linux&#x6240;&#x652F;&#x6301;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x5982;ext2,fat&#x7B49;&#xFF0C;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x6307;&#x4E3A;&#x6BCF;&#x4E00;&#x79CD;&#x786C;&#x4EF6;&#x63A7;&#x5236;&#x5668;&#x6240;&#x7F16;&#x5199;&#x7684;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x6A21;&#x5757;&#x3002;</p>
+<h2 id="4&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;">4.&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;</h2>
+<p>&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x662F; Linux  &#x5185;&#x6838;&#x7684;&#x4E3B;&#x8981;&#x90E8;&#x5206;&#x3002;&#x548C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x5176;&#x5B83;&#x90E8;&#x5206;&#x7C7B;&#x4F3C;&#xFF0C;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x5728;&#x9AD8;&#x7279;&#x6743;&#x7EA7;&#x7684;&#x5904;&#x7406;&#x5668;&#x73AF;&#x5883;&#x4E2D;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5BF9;&#x786C;&#x4EF6;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF0C;&#x4F46;&#x6B63;&#x56E0;&#x4E3A;&#x5982;&#x6B64;&#xFF0C;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x7684;&#x9519;&#x8BEF;&#x90FD;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x5D29;&#x6E83;&#x3002;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x5B9E;&#x9645;&#x63A7;&#x5236;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x8BBE;&#x5907;&#x4E4B;&#x95F4;&#x7684;&#x4EA4;&#x4E92;&#x3002;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x63D0;&#x4F9B;&#x4E00;&#x7EC4;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x53EF;&#x7406;&#x89E3;&#x7684;&#x62BD;&#x8C61;&#x63A5;&#x53E3;&#x5B8C;&#x6210;&#x548C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E4B;&#x95F4;&#x7684;&#x4EA4;&#x4E92;&#xFF0C;&#x800C;&#x4E0E;&#x786C;&#x4EF6;&#x76F8;&#x5173;&#x7684;&#x5177;&#x4F53;&#x64CD;&#x4F5C;&#x7EC6;&#x8282;&#x7531;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x5B8C;&#x6210;&#x3002;&#x4E00;&#x822C;&#x800C;&#x8A00;&#xFF0C;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x548C;&#x8BBE;&#x5907;
+&#x7684;&#x63A7;&#x5236;&#x82AF;&#x7247;&#x6709;&#x5173;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x76D8;&#x662F; SCSI  &#x786C;&#x76D8;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x4F7F;&#x7528; SCSI  &#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#xFF0C;&#x800C;&#x4E0D;&#x662F; IDE &#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x3002;</p>
+<h2 id="5&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#xFF08;net&#xFF09;">5.&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#xFF08;NET&#xFF09;</h2>
+<p>&#x63D0;&#x4F9B;&#x4E86;&#x5BF9;&#x5404;&#x79CD;&#x7F51;&#x7EDC;&#x6807;&#x51C6;&#x7684;&#x5B58;&#x53D6;&#x548C;&#x5404;&#x79CD;&#x7F51;&#x7EDC;&#x786C;&#x4EF6;&#x7684;&#x652F;&#x6301;&#x3002;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x53EF;&#x5206;&#x4E3A;&#x7F51;&#x7EDC;&#x534F;&#x8BAE;&#x548C;&#x7F51;&#x7EDC;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x3002;&#x7F51;&#x7EDC;&#x534F;&#x8BAE;&#x90E8;&#x5206;&#x8D1F;&#x8D23;&#x5B9E;&#x73B0;&#x6BCF;&#x4E00;&#x79CD;&#x53EF;&#x80FD;&#x7684;&#x7F51;&#x7EDC;&#x4F20;&#x8F93;&#x534F;&#x8BAE;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#xFF0C;TCP/IP  &#x534F;&#x8BAE;&#x662F; Internet  &#x7684;&#x6807;&#x51C6;&#x534F;&#x8BAE;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x662F;&#x4E8B;&#x5B9E;&#x4E0A;&#x7684;&#x5DE5;&#x4E1A;&#x6807;&#x51C6;&#x3002;Linux  &#x7684;&#x7F51;&#x7EDC;&#x5B9E;&#x73B0;&#x652F;&#x6301; BSD &#x5957;&#x63A5;&#x5B57;&#xFF0C;&#x652F;&#x6301;&#x5168;&#x90E8;&#x7684;TCP/IP&#x534F;&#x8BAE;&#x3002;Linux&#x5185;&#x6838;&#x7684;&#x7F51;&#x7EDC;&#x90E8;&#x5206;&#x7531;BSD&#x5957;&#x63A5;&#x5B57;&#x3001;&#x7F51;&#x7EDC;&#x534F;&#x8BAE;&#x5C42;&#x548C;&#x7F51;&#x7EDC;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x7EC4;&#x6210;&#x3002;
+&#x7F51;&#x7EDC;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x8D1F;&#x8D23;&#x4E0E;&#x786C;&#x4EF6;&#x8BBE;&#x5907;&#x901A;&#x8BAF;&#xFF0C;&#x6BCF;&#x4E00;&#x79CD;&#x53EF;&#x80FD;&#x7684;&#x786C;&#x4EF6;&#x8BBE;&#x5907;&#x90FD;&#x6709;&#x76F8;&#x5E94;&#x7684;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x3002;</p>
+<h2 id="linux-shell">linux shell</h2>
+<p>shell&#x662F;&#x7CFB;&#x7EDF;&#x7684;&#x7528;&#x6237;&#x754C;&#x9762;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x7528;&#x6237;&#x4E0E;&#x5185;&#x6838;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#x64CD;&#x4F5C;&#x7684;&#x4E00;&#x79CD;&#x63A5;&#x53E3;&#x3002;&#x5B83;&#x63A5;&#x6536;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x547D;&#x4EE4;&#x5E76;&#x628A;&#x5B83;&#x9001;&#x5165;&#x5185;&#x6838;&#x53BB;&#x6267;&#x884C;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x547D;&#x4EE4;&#x89E3;&#x91CA;&#x5668;&#x3002;&#x53E6;&#x5916;&#xFF0C;shell&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x5177;&#x6709;&#x666E;&#x901A;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x5F88;&#x591A;&#x7279;&#x70B9;&#xFF0C;&#x7528;&#x8FD9;&#x79CD;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7F16;&#x5199;&#x7684;shell&#x7A0B;&#x5E8F;&#x4E0E;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5177;&#x6709;&#x540C;&#x6837;&#x7684;&#x6548;&#x679C;&#x3002;
+&#x76EE;&#x524D;&#x4E3B;&#x8981;&#x6709;&#x4E0B;&#x5217;&#x7248;&#x672C;&#x7684;shell&#x3002;
+1&#xFF0E;Bourne Shell&#xFF1A;&#x662F;&#x8D1D;&#x5C14;&#x5B9E;&#x9A8C;&#x5BA4;&#x5F00;&#x53D1;&#x7684;&#x3002; &#x3000;
+2&#xFF0E;BASH&#xFF1A;&#x662F;GNU&#x7684;Bourne Again Shell&#xFF0C;&#x662F;GNU&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E0A;&#x9ED8;&#x8BA4;&#x7684;shell,&#x5927;&#x90E8;&#x5206;linux&#x7684;&#x53D1;&#x884C;&#x5957;&#x4EF6;&#x4F7F;&#x7528;&#x7684;&#x90FD;&#x662F;&#x8FD9;&#x79CD;shell&#x3002;
+3&#xFF0E;Korn Shell&#xFF1A;&#x662F;&#x5BF9;Bourne SHell&#x7684;&#x53D1;&#x5C55;&#xFF0C;&#x5728;&#x5927;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#x4E0A;&#x4E0E;Bourne Shell&#x517C;&#x5BB9;&#x3002;</p>
+<p>4&#xFF0E;C Shell&#xFF1A;&#x662F;SUN&#x516C;&#x53F8;Shell&#x7684;BSD&#x7248;&#x672C;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ApplicationField.html" class="navigation navigation-prev " aria-label="Previous page: 计算机应用领域">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Notes_For_Pytorch.html" class="navigation navigation-next " aria-label="Next page: pytorch笔记">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"linux架构","level":"1.3.5","depth":2,"next":{"title":"pytorch笔记","level":"1.3.6","depth":2,"path":"others/Notes_For_Pytorch.md","ref":"./others/Notes_For_Pytorch.md","articles":[]},"previous":{"title":"计算机应用领域","level":"1.3.4","depth":2,"path":"others/ApplicationField.md","ref":"./others/ApplicationField.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liaochengliang","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook-notes","language":"zh-hans","gitbook":"*","description":"Gitbook 教程","theme-default":{"showLevel":true}},"file":{"path":"others/Linux_Struction.md","mtime":"2023-04-09T17:25:25.529Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-04-11T17:04:39.241Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
