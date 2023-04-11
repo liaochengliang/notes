@@ -1,5 +1,13 @@
 # 笔记
 
+## 1.start
+
+```shell
+bash serve.sh
+```
+
+## 2.overview
+
 * [CPP](./CPP/README.md)
   * [C++学习领域](./CPP/000_CPP_StudyField.md)
   * [C++基础](./CPP/001_CPP_Basics.md)
